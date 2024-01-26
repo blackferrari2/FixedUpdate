@@ -1,6 +1,6 @@
 [package]
 name = "blackferrari2/fixedupdate"
-version = "0.1.1"
+version = "0.1.2"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 description = "provides functionality similar to unitys FixedUpdate (i think. i never used unity xD). Adapted from Smile4."

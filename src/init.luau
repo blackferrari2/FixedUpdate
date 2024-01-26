@@ -19,7 +19,7 @@ FixedUpdate.__index = FixedUpdate
 
 type self = {
     rate: number,
-    heartbeat: Signal.Signal<>,
+    heartbeat: Signal.Signal<nil>,
     thread: thread?,
 }
 
