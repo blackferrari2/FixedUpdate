@@ -1,0 +1,7 @@
+{
+	"name": "FixedUpdate",
+	
+	"tree": {
+		"$path": "src"
+	}
+}
