@@ -27,9 +27,9 @@ export type FixedUpdate = typeof(setmetatable({} :: self, FixedUpdate))
 
 ------------------
 
-function FixedUpdate.new(rate: number): FixedUpdate
+function FixedUpdate.new(rate: number?): FixedUpdate
 	local self = {
-        rate = rate,
+        rate = rate or 1 / 60,
         heartbeat = Signal.new()
 	}
 
